@@ -1,0 +1,246 @@
+:root {
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* text colors */
+    --acent-cl: #2196F3;
+    --main-cl: #757575;
+    --second-cl: #212121;
+    --bg-cl: #FFFFFF;
+    --button-color-hover: #188CE8;
+    --footer-color: rgba(255, 255, 255, 0.6);
+
+    /* background colors */
+    --acent-bg-cl: #2F303A;
+    --bacground-cl: #2196F3;
+    --main-bg-cl: #FFFFFF;
+    --second-bg-cl: #F5F4FA;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+    background-color: var(--main-bg-cl);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo,
+.link {
+    text-decoration: none;
+    color: currentColor;
+    font-style: normal;
+}
+
+/* ----Header section---- */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--acent-cl);
+}
+
+.logo-accent {
+    color: var(--second-cl);
+}
+
+/* navigation */
+.navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-cl);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--acent-cl);
+}
+
+.current {
+    color: var(--acent-cl);
+}
+
+.contact-tel,
+.contact-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-cl);
+}
+
+.contact-tel:hover,
+.contact-mail:hover {
+    color: var(--acent-cl);
+}
+
+.contact-tel:focus,
+.contact-mail:focus {
+    color: var(--acent-cl);
+}
+
+/* ----Main section---- */
+/* Hero section */
+.hero {
+    background-color: var(--acent-bg-cl);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bg-cl);
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+    border: none;
+
+    background-color: var(--bacground-cl);
+    color: var(--bg-cl);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--button-color-hover);
+}
+
+/* Specific section */
+
+.specific-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-cl);
+}
+
+.specific-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+}
+
+/* work section */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-cl);
+}
+
+/* Team section */
+.team-section {
+    background-color: var(--second-bg-cl);
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-cl);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-cl);
+}
+
+/* ----footer---- */
+.footer-section {
+    background-color: var(--acent-bg-cl);
+}
+
+.footer-logo {
+    color: var(--bg-cl);
+}
+
+.footer-list .link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-link {
+    color: var(--bg-cl);
+}
+
+.foot-mail,
+.foot-tel {
+    color: var(--footer-color);
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--acent-cl);
+}
+
+/* ----Portfolio---- */
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+    color: var(--second-cl);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--acent-cl);
+}
+
+.hero-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-cl);
+}
+
+.hero-type {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--main-cl);
+}
