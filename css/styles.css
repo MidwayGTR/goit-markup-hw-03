@@ -411,10 +411,6 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     background-color: var(--main-bg-cl);
-
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
 }
 
 .project-item:nth-child(3n+3) {
@@ -422,7 +418,13 @@ img {
 }
 
 .project-name {
-    margin: 20px 24px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .project-subtitle {
