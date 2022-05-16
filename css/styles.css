@@ -72,10 +72,14 @@ img {
 
 
 /* ----Header section---- */
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header-conteiner {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+
 }
 
 .header-logo {
@@ -302,6 +306,7 @@ img {
 .team-name {
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 
 .team-subtitle {
